@@ -1,0 +1,5 @@
+/* Small Devices - Mobile Phone */
+@media screen and (max-width: 600px) {}
+
+/* Laptop / Destop Device */
+@media screen and (min-width: 992px) and (max-width: 1250px) {}

@@ -1,0 +1,53 @@
+/* Google Fonts Import - Mulish */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900;1000&display=swap");
+
+/* Common Styles Here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+:root {
+    --primary-color: #FF5400;
+    --secondary-color: #131318;
+    --white-color: #FFF;
+    --primary-text-des-color: #131318b3;
+    --secondary-text-des-color: #5A5A5D;
+}
+
+.primary-title {
+    color: var(--white-color);
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.secondary-title {
+    color: var(--secondary-color);
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.primary-text-des {
+    color: var(--primary-text-des-color);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+.secondary-text-des {
+    color: var(--secondary-text-des-color);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+.btn-primary {
+    border-radius: .5em;
+    background: var(--primary-color);
+    padding: 0.8rem 2.2rem;
+}
