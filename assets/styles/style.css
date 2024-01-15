@@ -57,7 +57,18 @@ body {
     border-radius: .5em;
     background: var(--primary-color);
     padding: 0.8rem 2.2rem;
+    border: none;
+    outline: none;
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
 }
+
+/* .find-now-btn {
+    display: flex;
+    align-items: center;
+} */
 
 /* Navbar Styles Start Here */
 .navbar {
@@ -112,3 +123,51 @@ body {
 }
 
 /* Navbar Styles End Here */
+
+/* Banner Styles Start Here */
+.banner {
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./../image/banner.png);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.banner-content p {
+    color: var(--white-color);
+    padding: 1.5rem 0 2.2rem 0;
+}
+
+.banner-travel-find-now-box {
+    display: inline-flex;
+    border-radius: 8px;
+    padding: 1rem;
+    gap: 1.4rem;
+    background: #ffffff4d;
+}
+
+.banner-travel-find-now-box input,
+.banner-travel-find-now-box select {
+    padding: 1rem;
+    border-radius: .5rem;
+    background: var(--white-color);
+    border: none;
+    outline: none;
+    color: var(--secondary-text-des-color);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 174px;
+}
+
+.banner-travel-find-now-box button i {
+    margin-right: .5rem;
+}
+
+
+/* Banner Styles End Here */

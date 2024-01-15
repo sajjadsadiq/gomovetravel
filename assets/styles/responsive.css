@@ -16,6 +16,35 @@
     .navbar .toggle-btn {
         display: block;
     }
+
+    /* Banner Styles Here */
+    .banner {
+        height: auto;
+        padding: 2.5rem 0;
+    }
+
+    .banner-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner-content {
+        padding: 0;
+    }
+
+    .banner-content p {
+        font-size: 14px;
+    }
+
+    .banner-travel-find-now-box {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .banner-travel-find-now-box input,
+    .banner-travel-find-now-box select {
+        width: 100%;
+    }
 }
 
 /* Laptop / Destop Device */
