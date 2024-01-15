@@ -1,5 +1,22 @@
 /* Small Devices - Mobile Phone */
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+
+    /* Common Styles */
+    .content-wrapper {
+        margin: 0 auto;
+        width: 90%;
+        max-width: 600px;
+    }
+
+    /* Navbar Styles Here */
+    .navbar .nav-items {
+        display: none;
+    }
+
+    .navbar .toggle-btn {
+        display: block;
+    }
+}
 
 /* Laptop / Destop Device */
-@media screen and (min-width: 992px) and (max-width: 1250px) {}
+@media screen and (min-width: 992px) and (max-width: 1200px) {}
