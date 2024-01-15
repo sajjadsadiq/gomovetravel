@@ -171,3 +171,27 @@ body {
 
 
 /* Banner Styles End Here */
+
+
+/* Out Popular Tour Styles Start Here */
+.our-popler-tours {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.our-popler-tours-content {
+    width: 50%;
+}
+
+.our-popler-tours-img {
+    width: 50%;
+}
+
+.our-popler-tours-content p {
+    padding: 1rem 0;
+}
+
+/* Out Popular Tour Styles End Here */

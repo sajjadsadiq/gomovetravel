@@ -45,6 +45,16 @@
     .banner-travel-find-now-box select {
         width: 100%;
     }
+
+    /* Our Popular Styles Here */
+    .our-popler-tours {
+        flex-direction: column;
+    }
+
+    .our-popler-tours-content,
+    .our-popler-tours-img {
+        width: 100%;
+    }
 }
 
 /* Laptop / Destop Device */
