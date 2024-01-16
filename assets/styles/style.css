@@ -188,12 +188,24 @@ body {
     width: 50%;
 }
 
+.our-popler-tours-content ul {
+    padding-left: 1rem;
+}
+
+.our-popler-tours-content ul li {
+    margin-bottom: 1rem;
+}
+
 .our-popler-tours-img {
     width: 50%;
 }
 
 .our-popler-tours-content p {
     padding: 1rem 0;
+}
+
+.our-popler-tours-content button {
+    margin-top: 1rem;
 }
 
 /* Out Popular Tour Styles End Here */
@@ -234,6 +246,7 @@ body {
 .vacation-bundle-package h3 {
     font-size: 1.5rem;
     margin-top: .8rem;
+    margin-bottom: .5rem;
 }
 
 .reviwes-location-day-price {
@@ -475,7 +488,7 @@ body {
     margin: 1.4rem 0;
 }
 
-.newsletter-discont-img  {
+.newsletter-discont-img {
     position: relative;
 }
 
@@ -505,6 +518,7 @@ body {
     color: var(--white-color);
     font-size: 2rem;
     font-weight: 800;
+    margin-top: .3rem;
 }
 
 /* Newsletter Subscription Styles End Here */
