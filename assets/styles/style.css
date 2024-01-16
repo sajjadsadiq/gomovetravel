@@ -195,3 +195,77 @@ body {
 }
 
 /* Out Popular Tour Styles End Here */
+
+
+/* choose-your-destination Styles Start Here */
+.choose-your-destination {
+    margin-bottom: 100px;
+}
+
+.destination-content {
+    text-align: center;
+}
+
+.destination-content p {
+    padding: 1.2rem 0 3rem 0;
+}
+
+.destination-img-gellary {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.destination-1 {
+    grid-column: 1/7;
+}
+
+.destination-2 {
+    grid-column: 7/-1;
+}
+
+.destination-3 {
+    grid-column: 1/5;
+}
+
+.destination-4 {
+    grid-column: 5/10;
+}
+
+.destination-5 {
+    grid-column: 10/-1;
+}
+
+.destination-6 {
+    grid-column: 1/6;
+}
+
+.destination-7 {
+    grid-column: 6/-1;
+}
+
+
+.destination-img-name {
+    position: relative;
+    height: auto;
+}
+
+.destination-img-name img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.destination-img-name h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+/* choose-your-destination Styles End Here */

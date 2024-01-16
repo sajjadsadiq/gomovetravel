@@ -55,6 +55,47 @@
     .our-popler-tours-img {
         width: 100%;
     }
+
+    /* Dwstination Style Here */
+    .destination-img-gellary {
+        margin: 0;
+        padding: 0;
+    }
+    .destination-1 {
+        grid-column: 1/-1;
+        margin: 0;
+        padding: 0;
+        height: 170px;
+    }
+    
+    .destination-2 {
+        grid-column: 1/-1;
+        height: 170px;
+    }
+    
+    .destination-3 {
+        grid-column: 1/-1;
+    }
+    
+    .destination-4 {
+        grid-column: 1/-1;
+    }
+    
+    .destination-5 {
+        grid-column: 1/-1;
+    }
+    
+    .destination-6 {
+        grid-column: 1/-1;
+    }
+    
+    .destination-7 {
+        grid-column: 1/-1;
+    }
+    .destination-3, .destination-4, .destination-5, .destination-6, .destination-7 {
+        
+        gap: 2rem;
+    }
 }
 
 /* Laptop / Destop Device */
