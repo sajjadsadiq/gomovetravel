@@ -24,7 +24,7 @@
     }
 
     .banner-content h1 {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .banner-content {
@@ -33,6 +33,10 @@
 
     .banner-content p {
         font-size: 14px;
+    }
+
+    .banner-content p br {
+        display: none;
     }
 
     .banner-travel-find-now-box {
@@ -57,6 +61,10 @@
     }
 
     /* Destination Style Here */
+    .destination-content p br {
+        display: none;
+    }
+
     .destination-img-gellary {
         margin: 0;
         padding: 0;
@@ -112,6 +120,10 @@
         width: 100%;
     }
 
+    .why-choose-us-content p br {
+        display: none;
+    }
+
     /*  */
     .newsletter-subscription-discount {
         flex-direction: column;
@@ -120,6 +132,15 @@
     .newsletter-subscription-box,
     .newsletter-discont-img {
         width: 100%;
+    }
+
+    /* Footer styles Here */
+    .footer hr {
+        width: 100%;
+    }
+
+    .footer p br {
+        display: none;
     }
 }
 
