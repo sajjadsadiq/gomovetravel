@@ -167,6 +167,26 @@ body {
     width: 174px;
 }
 
+.selecter-wrapper {
+    position: relative;
+}
+
+.selecter-wrapper select {
+    appearance: none;
+}
+
+.selecter-wrapper .selecter-custome-arrow {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #131318b3;
+}
+
 .banner-travel-find-now-box button i {
     margin-right: .5rem;
 }
@@ -462,7 +482,7 @@ body {
     border: none;
     outline: none;
     color: #1313184d;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     width: 100%;
     margin-bottom: 1rem;
