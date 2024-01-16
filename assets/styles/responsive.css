@@ -60,8 +60,12 @@
         width: 100%;
     }
 
-    /*  */
-    .vacation-bundles-packages  {
+    /* Vacation Bundles Styles Here */
+    .vacation-bundles-content p br {
+        display: none;
+    }
+
+    .vacation-bundles-packages {
         flex-direction: column;
     }
 

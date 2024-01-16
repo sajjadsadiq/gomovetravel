@@ -207,6 +207,10 @@ body {
     text-align: center;
 }
 
+.vacation-bundles-content h2 {
+    margin-bottom: 2rem;
+}
+
 .vacation-bundles-packages {
     display: flex;
     align-items: center;
@@ -236,6 +240,7 @@ body {
     background-color: var(--primary-bg-color);
     padding: 1rem 1.25rem;
     margin-top: 1.5rem;
+    border-radius: .5rem;
 }
 
 .reviwes-location-day-price p {
@@ -264,6 +269,20 @@ body {
 .day-price h4 {
     font-size: 1.5rem;
     font-weight: 800;
+}
+
+.vacation-bundle-package button {
+    margin: 1rem 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.vacation-bundle-package button:hover {
+    color: #dcdcdc;
 }
 
 /* Vacation Bundles Styels End Here */
