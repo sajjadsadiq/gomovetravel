@@ -143,6 +143,21 @@
         width: 100%;
     }
 
+    .newsletter-discont-img .discouont-box {
+        padding: .5rem 1.5rem;
+        right: 0px;
+        bottom: 40px;
+
+    }
+
+    .discouont-box p {
+        font-size: 1rem;
+    }
+
+    .discouont-box h3 {
+        font-size: 1.5rem;
+    }
+
     /* Footer styles Here */
     .footer hr {
         width: 100%;

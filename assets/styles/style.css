@@ -427,9 +427,6 @@ body {
     margin-bottom: 6.5rem;
 }
 
-.newsletter-discont-img img {
-    width: 100%;
-}
 
 .newsletter-subscription-box {
     width: 40%;
@@ -476,6 +473,38 @@ body {
     background: #1313181a;
     border: none;
     margin: 1.4rem 0;
+}
+
+.newsletter-discont-img  {
+    position: relative;
+}
+
+.newsletter-discont-img img {
+    width: 100%;
+}
+
+.newsletter-discont-img .discouont-box {
+    position: absolute;
+    border-radius: 1rem;
+    background: var(--primary-color);
+    z-index: 1;
+    padding: 1rem 3rem;
+    text-align: center;
+    transform: rotate(-19.628deg);
+    right: 6px;
+    bottom: 58px;
+}
+
+.discouont-box p {
+    color: var(--white-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.discouont-box h3 {
+    color: var(--white-color);
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 /* Newsletter Subscription Styles End Here */
