@@ -23,8 +23,13 @@
         padding: 2.5rem 0;
     }
 
+    .banner-content {
+        padding: 0 2rem;
+    }
+
     .banner-content h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+        padding: 0 .6rem;
     }
 
     .banner-content {
@@ -32,7 +37,8 @@
     }
 
     .banner-content p {
-        font-size: 14px;
+        font-size: .8rem;
+        padding: 1rem 1rem;
     }
 
     .banner-content p br {
@@ -60,6 +66,10 @@
         width: 100%;
     }
 
+    .our-popler-tours-content h2 {
+        font-size: 2.2rem;
+    }
+
     /* Vacation Bundles Styles Here */
     .vacation-bundles-content p br {
         display: none;
@@ -67,6 +77,10 @@
 
     .vacation-bundles-packages {
         flex-direction: column;
+    }
+
+    .vacation-bundles-content h2 {
+        font-size: 2.2rem;
     }
 
     /* Destination Style Here */
@@ -77,6 +91,10 @@
     .destination-img-gellary {
         margin: 0;
         padding: 0;
+    }
+
+    .destination-content h2 {
+        font-size: 2.2rem;
     }
 
     .destination-1 {
@@ -127,6 +145,10 @@
 
     .why-choose-us-service-col-2-wrapper {
         width: 100%;
+    }
+
+    .why-choose-us-content h2 {
+        font-size: 2.2rem;
     }
 
     .why-choose-us-content p br {
