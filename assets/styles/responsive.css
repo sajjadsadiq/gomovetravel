@@ -90,10 +90,19 @@
 
     .destination-img-gellary {
         grid-template-rows: none;
+        width: 100%;
     }
 
     .destination-content h2 {
         font-size: 2.2rem;
+    }
+
+    .destination-img-name {
+        width: 100%;
+    }
+
+    .destination-img-name img {
+        width: 100%;
     }
 
     .destination-1 {
