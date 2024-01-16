@@ -372,7 +372,6 @@ body {
 
 .destination-img-name {
     position: relative;
-    height: auto;
 }
 
 .destination-img-name img {
@@ -390,7 +389,6 @@ body {
     font-size: 1.5rem;
     font-weight: 800;
 }
-
 
 /* Choose Your Destination Styles End Here */
 
@@ -450,6 +448,7 @@ body {
 }
 
 /* Why Choose Us  Styles End Here */
+
 
 /* Newsletter Subscription Styles Start Here */
 .newsletter-subscription-discount {

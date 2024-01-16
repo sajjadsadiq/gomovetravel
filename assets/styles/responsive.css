@@ -89,8 +89,7 @@
     }
 
     .destination-img-gellary {
-        margin: 0;
-        padding: 0;
+        grid-template-rows: none;
     }
 
     .destination-content h2 {
@@ -101,12 +100,10 @@
         grid-column: 1/-1;
         margin: 0;
         padding: 0;
-        height: 170px;
     }
 
     .destination-2 {
         grid-column: 1/-1;
-        height: 170px;
     }
 
     .destination-3 {
@@ -129,15 +126,6 @@
         grid-column: 1/-1;
     }
 
-    .destination-3,
-    .destination-4,
-    .destination-5,
-    .destination-6,
-    .destination-7 {
-
-        gap: 2rem;
-    }
-
     /* Why Choose Us Service */
     .why-choose-us-service-col-1 {
         flex-direction: column;
@@ -155,7 +143,8 @@
         display: none;
     }
 
-    /*  */
+
+    /* Newsletter and subscription */
     .newsletter-subscription-discount {
         flex-direction: column;
     }
