@@ -198,6 +198,76 @@ body {
 
 /* Out Popular Tour Styles End Here */
 
+/* Vacation Bundles Styels Start Here */
+.vacation-bundles {
+    margin-bottom: 6.5rem;
+}
+
+.vacation-bundles-content {
+    text-align: center;
+}
+
+.vacation-bundles-packages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.vacation-bundle-package {
+    padding: 1.25rem;
+    border-radius: .6rem;
+    background-color: var(--white-color);
+    box-shadow: 0 0 10px 0 #00000014;
+}
+
+.vacation-bundle-package img {
+    width: 100%;
+    border-radius: .6rem;
+}
+
+.vacation-bundle-package h3 {
+    font-size: 1.5rem;
+    margin-top: .8rem;
+}
+
+.reviwes-location-day-price {
+    background-color: var(--primary-bg-color);
+    padding: 1rem 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.reviwes-location-day-price p {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: .9rem;
+    font-weight: 500;
+    color: #736D75;
+    margin-bottom: .5rem;
+}
+
+.reviwes-location-day-price hr {
+    height: 1px;
+    background: #1313181a;
+    border: none;
+    margin: 1rem 0;
+}
+
+.day-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.day-price h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+/* Vacation Bundles Styels End Here */
+
 
 /* Choose Your Destination Styles Start Here */
 .choose-your-destination {
