@@ -111,6 +111,16 @@
     .why-choose-us-service-col-2-wrapper {
         width: 100%;
     }
+
+    /*  */
+    .newsletter-subscription-discount {
+        flex-direction: column;
+    }
+
+    .newsletter-subscription-box,
+    .newsletter-discont-img {
+        width: 100%;
+    }
 }
 
 /* Laptop / Destop Device */

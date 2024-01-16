@@ -328,3 +328,65 @@ body {
 }
 
 /* Why Choose Us  Styles End Here */
+
+/* Newsletter Subscription Styles Start Here */
+.newsletter-subscription-discount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 6.5rem;
+}
+
+.newsletter-discont-img img {
+    width: 100%;
+}
+
+.newsletter-subscription-box {
+    width: 40%;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+}
+
+.newsletter-subscription-box h4 {
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.newsletter-subscription-box input {
+    border-radius: .5rem;
+    background: #1313180d;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    color: #1313184d;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.newsletter-subscription-box button {
+    border-radius: .5rem;
+    background: var(--primary-color);
+    width: 100%;
+    padding: .8rem 0;
+    border: none;
+    outline: none;
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 800;
+    margin: .5rem;
+}
+
+.newsletter-subscription-box hr {
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    border: none;
+    margin: 1.4rem 0;
+}
+
+/* Newsletter Subscription Styles End Here */
